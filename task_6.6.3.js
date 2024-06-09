@@ -1,4 +1,12 @@
-let anyNum = prompt("Введите любое число");
+//Mentor edits:
+/* 
+let arr = []; нет смысла в let, т.к. ссылочный тип данных и с promt тоже
+
+Статус: Правки внесены
+*/ 
+
+
+anyNum = prompt("Введите любое число");
 
 if (isNaN(anyNum)) {
   alert("Вы ввели не число. Попробуйте еще раз");
@@ -7,7 +15,7 @@ if (isNaN(anyNum)) {
   +anyNum;
 }
 
-let arr = [];
+arr = [];
 
 for (i = 0; i <= anyNum; i++) {
   arr.push(i);
